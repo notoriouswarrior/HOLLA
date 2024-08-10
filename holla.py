@@ -99,6 +99,8 @@
 # finally:
 #     print("Thank you good bye!")
 
+
+#1
 # try:
 #     num1 = int(input("enter first number: "))
 #     num2 = int(input("enter second numner: "))
@@ -107,13 +109,14 @@
 # except ZeroDivisionError:
 #     print("learn math!")    
 
-
+#2
 # try:
 #     with open('file') as file:
 #         print("We found file")
 # except FileNotFoundError:
 #     print("Something went wrong")
 
+#3
 # try:
 #     num1 = 100
 #     num2 = int(input("100 / "))
@@ -124,6 +127,7 @@
 # except ValueError:
 #     print("you entered wrong value")
 
+#4
 # try:
 #     text = input("Add text to the file: ")
 #     with open('file', "w") as file:
@@ -131,11 +135,13 @@
 # except FileNotFoundError:
 #     print("You have not created file")
 
+#5
 # try:
 #     value = int(input("Enter the text "))
-#     if (value):
-#         pass
-#     else:
-#         print("smth went wrong")
+# except ValueError:
+#     print("You did smth wrong!")
+# else:
+#         print(f"{value} well said")
 # finally:
 #     print("Your mission comleted")
+#     else:
