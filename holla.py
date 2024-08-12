@@ -99,7 +99,6 @@
 # finally:
 #     print("Thank you good bye!")
 
-
 #1
 # try:
 #     num1 = int(input("enter first number: "))
@@ -145,3 +144,41 @@
 # finally:
 #     print("Your mission comleted")
 #     else:
+
+# num = int(input("Please enter the number:  "))
+# if num % 2 == 0:
+#     print(f"{num} - is odd")
+# else:
+#     print(f"{num}- is even") 
+
+# list = []
+# ammount = int(input("Enter the number of elemets in list: "))
+# for i in range(1, ammount+1):
+#     number = int(input("Enter the number: "))
+#     list.append(number)
+
+# print(f"the smallest number is {min(list)}")
+
+# word = input("Enter the word and we will check if it is polyndrom.\nWord: ")
+# lenth = len(word)
+# for i in range(1,lenth + 1):
+#     for n in range(i):
+
+# n = int(input("Enter the number: "))
+# sum = n * (n + 1) / 2
+# print(sum)
+
+# word = input("Enter the word: ")
+# reversed = word[::-1]
+# if reversed == word:
+#     print("The word is polydrom")
+# else:
+#     print("the word is not polydrom")
+
+# n = int(input("enter the number: "))
+# list = range(1,n + 1)
+# print(list)
+
+
+
+
