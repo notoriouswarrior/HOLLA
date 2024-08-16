@@ -12,22 +12,6 @@
 #     def __init__(self):
 #         pass
 #     def area(self)
-    
-# class Task():
-#     def __init__(self, title, description, status) -> None:
-#         self.title = title 
-#         self.description = description
-#         self.status = status
-
-#     def scentence(self):
-#         return (f"TASK - {self.title} \nDESCRIPTION - {self.description} \nSTATUS - {self.status}")
-
-# c = input("Status \n")
-# b = input("Description\n")
-# c = input("Status \n")
-# result = Task(a,b,c)
-# print(result.scentence)
-
 
 # import math
 # a = 3
@@ -163,7 +147,6 @@
 # lenth = len(word)
 # for i in range(1,lenth + 1):
 #     for n in range(i):
-
 # n = int(input("Enter the number: "))
 # sum = n * (n + 1) / 2
 # print(sum)
@@ -176,9 +159,72 @@
 #     print("the word is not polydrom")
 
 # n = int(input("enter the number: "))
-# list = range(1,n + 1)
-# print(list)
+# list = 1
+# while list <= n:
+#     print(list)
+#     list 
+
+# rock =   """  _
+# ___________
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)"""
+# paper =  """"
+# ___________
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)"""
+# scissors =  """"
+# __________
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___) """
+
+# import random
+# variants= [rock, paper, scissors]
+# you = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n'))
+# user = variants[you]
+# print(f"You choose {user}")
+# index = random.randint(a=0,b=2)
+# computer = variants[index]
+# print(f"Computer choose {computer}")
+# if index == 0 and you == 1:
+#     print("You win!")
+# elif index == 1 and you == 2:
+#     print("You win!")
+# elif index == 2 and you == 0:
+#     print("You win!")
+# elif index == you:
+#     print("It's draw!")
+# else:
+#     print("You lost!")
 
 
-
-
+filename = "file.txt"
+num1 = int(input("give first number: "))
+num2 = int(input("give second number: "))
+condition = input("какую операцию вы хотите сделать ? a = +, b = -, c = *, d = /")
+with open(filename,'w') as file:
+    if condition == "a":
+        sum = num1 + num2
+        file.write(f"{num1} + {num2} = {sum}" )
+    elif condition == "b":
+        min = num1 - num2
+        file.write(f"{num1} - {num2} = {min}")
+    elif condition == "c":
+        umn = num1 * num2
+        file.write(f"{num1} + {num2} = {umn}")
+    elif condition == "c":
+        div = num1 / num2
+        file.write(f"{num1} + {num2} = {div}")
+    else:
+        print("you have written wrong argument")
+    
+    
+                   
