@@ -29,10 +29,10 @@
 
 # import math
 
-# r = 7 
+# r = 7 {S}")
 # C = r * 2 * math.pi
 # S = math.pow(r,2) * math.pi
-# print(f"периметр = {C}\nплощадь = {S}")
+# print(f"периметр = {C}\nплощадь = 
 
 # a = int(input(f"enter the number to check\n"))
 # if a % 2 == 0:
@@ -118,7 +118,7 @@
 # except FileNotFoundError:
 #     print("You have not created file")
 
-#5
+# #5
 # try:
 #     value = int(input("Enter the text "))
 # except ValueError:
@@ -127,7 +127,6 @@
 #         print(f"{value} well said")
 # finally:
 #     print("Your mission comleted")
-#     else:
 
 # num = int(input("Please enter the number:  "))
 # if num % 2 == 0:
@@ -200,31 +199,133 @@
 #     print("You win!")
 # elif index == 2 and you == 0:
 #     print("You win!")
-# elif index == you:
+# elif index == you/bin/python3 "/home/ismail/Рабочий стол/bernard/holla.py"
 #     print("It's draw!")
 # else:
 #     print("You lost!")
 
 
-filename = "file.txt"
-num1 = int(input("give first number: "))
-num2 = int(input("give second number: "))
-condition = input("какую операцию вы хотите сделать ? a = +, b = -, c = *, d = /")
-with open(filename,'w') as file:
-    if condition == "a":
-        sum = num1 + num2
-        file.write(f"{num1} + {num2} = {sum}" )
-    elif condition == "b":
-        min = num1 - num2
-        file.write(f"{num1} - {num2} = {min}")
-    elif condition == "c":
-        umn = num1 * num2
-        file.write(f"{num1} + {num2} = {umn}")
-    elif condition == "c":
-        div = num1 / num2
-        file.write(f"{num1} + {num2} = {div}")
-    else:
-        print("you have written wrong argument")
+# filename = "file.txt"
+# num1 = int(input("give first number: "))
+# num2 = int(input("give second number: "))
+# condition = input("какую операцию вы хотите сделать ? a = +, b = -, c = *, d = /")
+# if condition == "a":
+#     sum = num1 + num2
+#     result = f"{num1} + {num2} = {sum}" 
+# elif condition == "b":
+#     min = num1 - num2
+#     result = f"{num1} - {num2} = {min}"
+# elif condition == "c":
+#     umn = num1 * num2
+#     result = f"{num1} + {num2} = {umn}"
+# elif condition == "c":
+#     div = num1 / num2
+#     result = f"{num1} + {num2} = {div}"
+# else:
+#     print("you have written wrong argument")
+
+# import random
+# letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+# numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+# print("Welcome to the PyPassword Generator!")
+# nr_letters= int(input("How many letters would you like in your password?\n")) 
+# nr_symbols = int(input(f"How many symbols would you like?\n"))
+# nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+# randomisor_l = random.randint(1,64)
+# randomisor_n_s = random.randint(1,9)
+
+# password = ""
+# for i in range(1,nr_letters +1):
+#     ranlett = random.choice(letters)
+#     password += ranlett
+ 
+# for i in range (1, nr_numbers +1):
+#     rannum = random.choice(numbers)
+#     password += rannum
+
+# for i in range(1,nr_symbols +1):
+#     ransym = random.choice(symbols)
+#     password += ransym
+
+
+# print(password)  
+
+
+# import triangle_checker
+# triangle_checker.TriangleChecker
+     
+# try:     
+#     first = float(input("Введите значение а: "))
+#     second = float(input("Введите значение b: "))
+#     third = float(input("Введите значение с: "))
+#     values = TriangleChecker(first,second,third)
+#     if first < 0 or second < 0 or third < 0:
+#         print("Сотрицательными числам ничего не выйдет")
+#     else:
+#         print(values.is_triangle()) 
+# except ValueError:
+#     print("Нужно вводить только числа!")
+
+
+# class TriangleChecker:
+#     def __init__(self, a, b, c):
+#         self.a = a
+#         self.b = b 
+#         self.c = c
+#     def is_triangle(self):
+#         if self.a + self.b > self.c:
+#             return "Ура, можно построить треугольник"
+#         elif self.a + self.c > self.b:
+#             return "Ура, можно построить треугольник"
+#         elif self.b + self.c > self.a:
+#             return "Ура, можно построить треугольник"
+#         else:
+#             return "Жаль, но из этого треугольник нельзя сделать"
     
+# try:     
+#     first = float(input("Введите значение а: "))
+#     second = float(input("Введите значение b: "))
+#     third = float(input("Введите значение с: "))
     
-                   
+#     if first <= 0 or second <= 0 or third <= 0:
+#         print("С отрицательными числами ничего не выйдет")
+#     else:
+#         values = TriangleChecker(first, second, third)
+#         print(values.is_triangle()) 
+
+# except ValueError:
+#     print("Нужно вводить только числа!")
+
+class Nikola:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def argument(self):
+        if self.name == "Николай":
+            return f"Меня зовут {self.name}, мне {self.age}"
+        else:
+            return f"Я не '{self.name}', я Николай"
+user_name = input("Как вас зовут ?: ").capitalize().strip()
+user_age = input("Сколько вам лет ?: ")
+values = Nikola(user_name, user_age)
+print(values.argument())
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
