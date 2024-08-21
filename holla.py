@@ -299,20 +299,20 @@
 # except ValueError:
 #     print("Нужно вводить только числа!")
 
-class Nikola:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def argument(self):
-        if self.name == "Николай":
-            return f"Меня зовут {self.name}, мне {self.age}"
-        else:
-            return f"Я не '{self.name}', я Николай"
-user_name = input("Как вас зовут ?: ").capitalize().strip()
-user_age = input("Сколько вам лет ?: ")
-values = Nikola(user_name, user_age)
-print(values.argument())
+# class Nikola:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def argument(self):
+#         if self.name == "Николай":
+#             return f"Меня зовут {self.name}, мне {self.age}"
+#         else:
+#             return f"Я не '{self.name}', я Николай"
+# user_name = input("Как вас зовут ?: ").capitalize().strip()
+# user_age = input("Сколько вам лет ?: ")
+# values = Nikola(user_name, user_age)
+# print(values.argument())
 
         
 
